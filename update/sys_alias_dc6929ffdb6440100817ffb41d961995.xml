@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
     <sys_alias action="INSERT_OR_UPDATE">
-        <configuration_template/>
         <connection_type>http_connection</connection_type>
         <id>x_snc_gitlab.GitlabConnCred</id>
         <multiple_connections>false</multiple_connections>

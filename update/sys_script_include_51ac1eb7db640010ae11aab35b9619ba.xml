@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_gitlab.GitlabErrorHandler</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GitlabErrorHandler</name>
+        <script><![CDATA[var GitlabErrorHandler = Class.create();
+GitlabErrorHandler.prototype = {
+    initialize: function() {},
+    commonErrorHandler: function(inputs, ouputs, responseBody) {
+        gs.info("k inside" + JSON.stringify(ouputs));
+        var responseError = responseBody.message;
+		        gs.info("k response" + JSON.stringify(responseBody));
+        var inErrors = {
+            INVALID_PRID: "404 Project Not Found",
+            INVALID_BRID: "404 Branch Not Found",
+        };
+        var outMessage = {
+            INVALID_PRID: "The Project ID provided is invalid",
+            INVALID_BRID: "The Branch name provided is invalid",
+        };
+        if (responseError.includes(inErrors.INVALID_PRID))
+            ouputs.error_message = outMessage.INVALID_PRID;
+        if (responseError.includes(inErrors.INVALID_BRID))
+            ouputs.error_message = outMessage.INVALID_BRID;
+        gs.info("k inside end" + JSON.stringify(ouputs));
+        return ouputs;
+    },
+    type: 'GitlabErrorHandler'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>karthik.veenam@snc</sys_created_by>
+        <sys_created_on>2019-10-24 10:37:22</sys_created_on>
+        <sys_id>51ac1eb7db640010ae11aab35b9619ba</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>GitlabErrorHandler</sys_name>
+        <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
+        <sys_update_name>sys_script_include_51ac1eb7db640010ae11aab35b9619ba</sys_update_name>
+        <sys_updated_by>karthik.veenam@snc</sys_updated_by>
+        <sys_updated_on>2019-10-24 11:54:18</sys_updated_on>
+    </sys_script_include>
+</record_update>

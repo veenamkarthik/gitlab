@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD033eaabb01a400105e1656880e05355e</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>2978657fdb6440100817ffb41d961961</scope_name>
+        <serialized_content>{"FlowDesigner:FD033eaabb01a400105e1656880e05355e":{"author_name":"String","author_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"author_name\",\"mandatory\":\"true\",\"order\":\"5\",\"max_length\":\"0\"}"},"authored_date":"String","authored_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"authored_date\",\"mandatory\":\"true\",\"order\":\"6\",\"max_length\":\"0\"}"},"committer_email":"String","committer_email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"committer_email\",\"mandatory\":\"true\",\"order\":\"8\",\"max_length\":\"0\"}"},"committed_date":"String","committed_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"committed_date\",\"mandatory\":\"true\",\"order\":\"7\",\"max_length\":\"0\"}"},"author_email":"String","author_email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"author_email\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"0\"}"},"id":"String","id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"id\",\"mandatory\":\"true\",\"order\":\"10\",\"max_length\":\"0\"}"},"short_id":"String","short_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"short_id\",\"mandatory\":\"true\",\"order\":\"11\",\"max_length\":\"0\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"message\",\"mandatory\":\"true\",\"order\":\"13\",\"max_length\":\"0\"}"},"parent_ids":["Any"],"parent_ids.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"parent_ids\",\"mandatory\":\"true\",\"child_name\":\"parent_id\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"parent_id\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"14\",\"max_length\":\"0\"}"},"title":"String","title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"title\",\"mandatory\":\"true\",\"order\":\"12\",\"max_length\":\"0\"}"},"committer_name":"String","committer_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"committer_name\",\"mandatory\":\"true\",\"order\":\"9\",\"max_length\":\"0\"}"}},"FlowDesigner:FD033eaabb01a400105e1656880e05355e.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD033eaabb01a400105e1656880e05355e\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"commit\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>karthik.veenam@snc</sys_created_by>
+        <sys_created_on>2019-10-24 11:48:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c33eaabbdba40010ae11aab35b96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD033eaabb01a400105e1656880e05355e</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
+        <sys_update_name>sys_complex_object_c33eaabbdba40010ae11aab35b96195e</sys_update_name>
+        <sys_updated_by>karthik.veenam@snc</sys_updated_by>
+        <sys_updated_on>2019-10-24 11:48:18</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

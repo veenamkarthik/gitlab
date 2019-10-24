@@ -16,7 +16,6 @@
         <latest_snapshot/>
         <master_snapshot/>
         <name>Get Projects</name>
-        <natlang/>
         <outputs/>
         <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>

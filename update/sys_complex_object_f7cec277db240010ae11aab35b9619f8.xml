@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf3cec277da2400103348ea2398f54bf8</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>2978657fdb6440100817ffb41d961961</scope_name>
+        <serialized_content>{"FlowDesigner:FDf3cec277da2400103348ea2398f54bf8":{"variable7_child9":"String","variable7_child9.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"variable7_child9\",\"mandatory\":\"false\",\"order\":\"9\",\"max_length\":\"0\"}"},"variable7_child8":"String","variable7_child8.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"variable7_child8\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"},"variable7_child3":"String","variable7_child3.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"variable7_child3\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"variable7_child2":"String","variable7_child2.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"variable7_child2\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"variable7_child1":"String","variable7_child1.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"variable7_child1\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"},"variable7_child7":"String","variable7_child7.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"variable7_child7\",\"mandatory\":\"false\",\"order\":\"7\",\"max_length\":\"0\"}"},"variable7_child6":"String","variable7_child6.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"variable7_child6\",\"mandatory\":\"false\",\"order\":\"6\",\"max_length\":\"0\"}"},"variable7_child5":"String","variable7_child5.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"variable7_child5\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"variable7_child10":["Any"],"variable7_child10.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"variable7_child10\",\"mandatory\":\"false\",\"child_name\":\"variable7_child10_child0\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"variable7_child10_child0\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"10\",\"max_length\":\"0\"}"},"variable7_child4":"String","variable7_child4.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"variable7_child4\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"}},"FlowDesigner:FDf3cec277da2400103348ea2398f54bf8.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf3cec277da2400103348ea2398f54bf8\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"variable7\",\"mandatory\":\"false\",\"order\":\"8\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>karthik.veenam@snc</sys_created_by>
+        <sys_created_on>2019-10-24 09:31:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f7cec277db240010ae11aab35b9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDf3cec277da2400103348ea2398f54bf8</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
+        <sys_update_name>sys_complex_object_f7cec277db240010ae11aab35b9619f8</sys_update_name>
+        <sys_updated_by>karthik.veenam@snc</sys_updated_by>
+        <sys_updated_on>2019-10-24 09:31:00</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

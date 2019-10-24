@@ -16,7 +16,6 @@
         <latest_snapshot>2a5da1f3dba440100817ffb41d9619d3</latest_snapshot>
         <master_snapshot>c3dc69b3dba440100817ffb41d9619ac</master_snapshot>
         <name>Create Branch</name>
-        <natlang/>
         <outputs/>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
@@ -958,11 +957,11 @@
         <sys_created_on>2019-10-24 07:02:03</sys_created_on>
         <sys_id>31bce5b3dba440100817ffb41d961924</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Branch Name</sys_name>
         <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2ddbe973dba440100817ffb41d9619b1_branch_name_en</sys_update_name>
         <sys_updated_by>karthik.veenam@snc</sys_updated_by>
         <sys_updated_on>2019-10-24 07:02:03</sys_updated_on>
         <url/>
@@ -981,11 +980,11 @@
         <sys_created_on>2019-10-24 07:02:03</sys_created_on>
         <sys_id>75bce5b3dba440100817ffb41d961929</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Reference Branch Or Commit SHA</sys_name>
         <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2ddbe973dba440100817ffb41d9619b1_reference_branch_or_commit_sha_en</sys_update_name>
         <sys_updated_by>karthik.veenam@snc</sys_updated_by>
         <sys_updated_on>2019-10-24 07:02:03</sys_updated_on>
         <url/>
@@ -1004,11 +1003,11 @@
         <sys_created_on>2019-10-24 07:02:03</sys_created_on>
         <sys_id>f9bce5b3dba440100817ffb41d96191e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Project ID</sys_name>
         <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2ddbe973dba440100817ffb41d9619b1_project_id_en</sys_update_name>
         <sys_updated_by>karthik.veenam@snc</sys_updated_by>
         <sys_updated_on>2019-10-24 07:02:03</sys_updated_on>
         <url/>
@@ -1048,7 +1047,6 @@
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.branch_name}}","label":"action➛Branch Name","type":"action","ref":""},{"name":"{{action.reference_branch_or_commit_sha}}","label":"action➛Reference Branch Or Commit SHA","type":"action","ref":""}]</label_cache>
         <master>true</master>
         <name>Create Branch</name>
-        <natlang/>
         <outputs/>
         <parent_action display_value="Create Branch">2ddbe973dba440100817ffb41d9619b1</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
@@ -1990,11 +1988,11 @@
         <sys_created_on>2019-10-24 07:02:41</sys_created_on>
         <sys_id>13dc69b3dba440100817ffb41d9619b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Branch Name</sys_name>
         <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c3dc69b3dba440100817ffb41d9619ac_branch_name_en</sys_update_name>
         <sys_updated_by>karthik.veenam@snc</sys_updated_by>
         <sys_updated_on>2019-10-24 07:02:41</sys_updated_on>
         <url/>
@@ -2013,11 +2011,11 @@
         <sys_created_on>2019-10-24 07:02:42</sys_created_on>
         <sys_id>1fdc69b3dba440100817ffb41d9619c8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Reference Branch Or Commit SHA</sys_name>
         <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c3dc69b3dba440100817ffb41d9619ac_reference_branch_or_commit_sha_en</sys_update_name>
         <sys_updated_by>karthik.veenam@snc</sys_updated_by>
         <sys_updated_on>2019-10-24 07:02:42</sys_updated_on>
         <url/>
@@ -2036,11 +2034,11 @@
         <sys_created_on>2019-10-24 07:02:41</sys_created_on>
         <sys_id>dbdc69b3dba440100817ffb41d9619b1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Project ID</sys_name>
         <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
         <sys_policy/>
         <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c3dc69b3dba440100817ffb41d9619ac_project_id_en</sys_update_name>
         <sys_updated_by>karthik.veenam@snc</sys_updated_by>
         <sys_updated_on>2019-10-24 07:02:41</sys_updated_on>
         <url/>

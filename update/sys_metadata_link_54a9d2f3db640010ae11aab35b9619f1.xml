@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>be09d6b3db640010ae11aab35b9619db</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="http_connection">
+    <http_connection action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="ALL">35aa573fd7802200bdbaee5b5e610375</application>
+        <base_path/>
+        <capabilities/>
+        <connection_alias display_value="x_snc_gitlab.GitlabAlias">84d8d2b3db640010ae11aab35b9619e4</connection_alias>
+        <connection_retries>0</connection_retries>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>https://gitlab.com/api/v4/</connection_url>
+        <credential display_value="GitlabCred">a0b852b3db640010ae11aab35b96192f</credential>
+        <extended_attributes/>
+        <host>gitlab.com</host>
+        <mutual_auth>false</mutual_auth>
+        <name>Gitlab_Conn</name>
+        <order>100</order>
+        <port/>
+        <protocol>https</protocol>
+        <protocol_profile/>
+        <sys_class_name>http_connection</sys_class_name>
+        <sys_created_by>karthik.veenam@snc</sys_created_by>
+        <sys_created_on>2019-10-24 10:16:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be09d6b3db640010ae11aab35b9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karthik.veenam@snc</sys_updated_by>
+        <sys_updated_on>2019-10-24 10:16:12</sys_updated_on>
+        <url_builder>false</url_builder>
+        <use_mid>false</use_mid>
+    </http_connection>
+    <sys_variable_value action="delete_multiple" query="document_key=be09d6b3db640010ae11aab35b9619db"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>karthik.veenam@snc</sys_created_by>
+        <sys_created_on>2019-10-24 10:18:16</sys_created_on>
+        <sys_id>54a9d2f3db640010ae11aab35b9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gitlab_Conn</sys_name>
+        <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
+        <sys_update_name>sys_metadata_link_54a9d2f3db640010ae11aab35b9619f1</sys_update_name>
+        <sys_updated_by>karthik.veenam@snc</sys_updated_by>
+        <sys_updated_on>2019-10-24 10:18:16</sys_updated_on>
+        <tablename>sys_connection</tablename>
+    </sys_metadata_link>
+</record_update>
