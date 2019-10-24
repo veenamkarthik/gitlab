@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>get_branch</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Branch </name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>karthik.veenam@snc</sys_created_by>
+        <sys_created_on>2019-10-24 07:05:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c66d2db3dba440100817ffb41d961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Branch </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c66d2db3dba440100817ffb41d961948</sys_update_name>
+        <sys_updated_by>karthik.veenam@snc</sys_updated_by>
+        <sys_updated_on>2019-10-24 07:05:04</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c66d2db3dba440100817ffb41d961948"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c66d2db3dba440100817ffb41d961948"/>
+</record_update>
