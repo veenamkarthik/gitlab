@@ -10,7 +10,7 @@
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <ih_action>true</ih_action>
+        <ih_action>false</ih_action>
         <internal_name>get_branch</internal_name>
         <label_cache>[{"name":"{{action.project_id}}","label":"action➛Project ID","type":"action","ref":""},{"name":"{{action.branch_name}}","label":"action➛Branch Name","type":"action","ref":""},{"name":"{{step[635973d5-8706-4268-8fc0-a768a282f4b4].response_body}}","label":"Get Branchstep➛➛Response Body","type":"step","ref":""},{"name":"{{step[095fee65-6ba3-4f3a-8266-33442a345a2a].name}}","label":"step➛Post Processing➛name","type":"step","ref":""},{"name":"{{step[095fee65-6ba3-4f3a-8266-33442a345a2a].merged}}","label":"step➛Post Processing➛merged","type":"step","ref":""},{"name":"{{step[095fee65-6ba3-4f3a-8266-33442a345a2a].protected}}","label":"step➛Post Processing➛protected","type":"step","ref":""},{"name":"{{step[095fee65-6ba3-4f3a-8266-33442a345a2a].default}}","label":"step➛Post Processing➛default","type":"step","ref":""},{"name":"{{step[095fee65-6ba3-4f3a-8266-33442a345a2a].developers_can_push}}","label":"step➛Post Processing➛developers_can_push","type":"step","ref":""},{"name":"{{step[095fee65-6ba3-4f3a-8266-33442a345a2a].developers_can_merge}}","label":"step➛Post Processing➛developers_can_merge","type":"step","ref":""},{"name":"{{step[095fee65-6ba3-4f3a-8266-33442a345a2a].can_push}}","label":"step➛Post Processing➛can_push","type":"step","ref":""},{"name":"{{step[095fee65-6ba3-4f3a-8266-33442a345a2a].commit}}","label":"step➛Post Processing➛commit","type":"step","ref":""},{"name":"{{step[635973d5-8706-4268-8fc0-a768a282f4b4].status_code}}","label":"Get Branchstep➛➛Status Code","type":"step","ref":""},{"name":"{{step[095fee65-6ba3-4f3a-8266-33442a345a2a].status}}","label":"step➛Post Processing➛Status","type":"step","ref":""},{"name":"{{step[095fee65-6ba3-4f3a-8266-33442a345a2a].error_message}}","label":"step➛Post Processing➛Error Message","type":"step","ref":""}]</label_cache>
         <latest_snapshot>0e8876b7dbe40010ae11aab35b9619e9</latest_snapshot>
@@ -18,13 +18,13 @@
         <name>Get Branch </name>
         <outputs/>
         <outputs/>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>karthik.veenam@snc</sys_created_by>
         <sys_created_on>2019-10-24 07:05:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>c66d2db3dba440100817ffb41d961948</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Get Branch </sys_name>
         <sys_overrides/>
         <sys_package display_value="Gitlab" source="x_snc_gitlab">2978657fdb6440100817ffb41d961961</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_c66d2db3dba440100817ffb41d961948</sys_update_name>
         <sys_updated_by>karthik.veenam@snc</sys_updated_by>
-        <sys_updated_on>2019-10-24 12:33:21</sys_updated_on>
+        <sys_updated_on>2019-10-24 12:49:59</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -2196,7 +2196,7 @@ if(inputs.branch_name.trim() == "")
         <internal_link/>
         <internal_type display_value="Choice">choice</internal_type>
         <label>Status</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="Get Branch ">c66d2db3dba440100817ffb41d961948</model>
         <model_id>c66d2db3dba440100817ffb41d961948</model_id>
@@ -2221,14 +2221,14 @@ if(inputs.branch_name.trim() == "")
         <sys_created_by>karthik.veenam@snc</sys_created_by>
         <sys_created_on>2019-10-24 10:41:40</sys_created_on>
         <sys_id>07fed67bdb640010ae11aab35b961907</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Gitlab">2978657fdb6440100817ffb41d961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>karthik.veenam@snc</sys_updated_by>
-        <sys_updated_on>2019-10-24 12:33:14</sys_updated_on>
+        <sys_updated_on>2019-10-24 12:49:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
